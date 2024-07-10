@@ -176,11 +176,45 @@ h1{
 
 
 /* target  style */
+.current-terget-container{
+   margin-top: 25px;
+   height: 504px;
+   
+  
 
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.current-terget-image-container{
+    margin-top: 25px;
+    width: 284px;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    background-color:  rgb(206, 215, 224);
+}
+.current-terget-image-container img{
+    width: 20.45px;
+   height: 28.12px;
+}
+.current-terget-image-container a{
+    margin-top: 20px;
+}
+
+.current-terget-image-container h3{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ 
 /* footer  part */
 #footer{
     height: 342px;
     background-image: url('/assets/handshake.jpg');
+    margin-top: -140px;
    
 
 }
