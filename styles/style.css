@@ -28,7 +28,7 @@
     
 }
 
-.banner-title{
+.section-title{
   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 38px;
@@ -38,7 +38,7 @@ letter-spacing: 0%;
 text-align: center;
 }
 
-.banner-description{
+/* .section-description{
   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -47,7 +47,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 margin-top: 24px;
-}
+} */
 
 .btn-container{
     text-align: center;
@@ -73,13 +73,14 @@ margin-top: 24px;
 #main{
     width: 1225px;
     height: 1072px;
-    border: 2px solid green;
+   
 }
 
 .objective-of-development{
     width: 80%;
     margin: 0 auto;
-    border: 2px  solid green;
+    
+   
 }
 .title{
   color: rgb(13, 19, 33);
@@ -103,7 +104,7 @@ margin-top: 24px;
 }
 .development-text-container{
      width: 70%; 
-     border: 2px solid green;
+     
    
 }
 .development-container{
@@ -144,6 +145,24 @@ h1{
 
  .development-paragraph{
     margin-right: 30px;
-    border: 2px solid red;
+    
    
 } 
+.inspiration-description{
+   width: 70%;
+   margin: 0  auto;
+   margin-top: 24px;
+   color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#main .my-inspiration-vedio{
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+}
