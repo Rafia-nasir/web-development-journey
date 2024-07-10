@@ -71,8 +71,8 @@ margin-top: 24px;
 
 /* Main  part  style  start  */
 #main{
-    width: 1225px;
-    height: 1072px;
+    width: 1225px; 
+    height: 2000px; 
    
 }
 
@@ -163,6 +163,62 @@ h1{
 
 #main .my-inspiration-vedio{
     width: 1050px;
-    height: 100px;
+    height: 250px;
+    margin-right:20px ;
+    
+    
+}
+.vedio{
+    width: 800px;
+    margin-left: 180px;
+    
+}
+
+
+/* target  style */
+
+/* footer  part */
+#footer{
+    height: 342px;
+    background-image: url('/assets/handshake.jpg');
+   
+
+}
+.footer-title{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-container{
+    width: 80%;
     margin: 0 auto;
+  
+   padding: 64px 48px 64px 48px;
+   border-radius: 16px;
+   background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.footer-description{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.input-button{
+   width: 250px;
+   padding: 10px 15px 10px 15px;
+}
+.input-submit{
+    width: 150px;
+    padding: 10px 15px 10px 15px;
+}
+.input-container{
+    text-align: center;
 }
