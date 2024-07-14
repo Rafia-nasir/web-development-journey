@@ -53,7 +53,9 @@ margin-top: 24px;
     text-align: center;
     margin-top: 25px;
 }
-
+.btn-container a{
+    color: aliceblue;
+}
 .btn{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
@@ -213,8 +215,10 @@ h1{
 /* footer  part */
 #footer{
     height: 342px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     margin-top: -140px;
+    background-size: cover;
+    background-position: center;
    
 
 }
@@ -227,14 +231,18 @@ line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
 }
+
+
 .footer-container{
-    width: 80%;
-    margin: 0 auto;
+    width: 1140px;
+    height: 314px;
   
    padding: 64px 48px 64px 48px;
    border-radius: 16px;
    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
+
+
 .footer-description{
   color: rgb(255, 255, 255);
 font-family: Azeret Mono;
